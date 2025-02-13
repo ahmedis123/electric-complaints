@@ -15,8 +15,8 @@
 
 ## التقنيات المستخدمة
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: [يمكنك إضافة التفاصيل هنا حسب لغة البرمجة المستخدمة مثل Flask، Node.js، PHP]
-- **قاعدة البيانات**: [Firebase/MySQL/PostgreSQL] (حسب الاختيار)
+- **Backend**: Flask
+- **قاعدة البيانات**: SQLite
 
 ## كيفية التشغيل
 1. **Clone** هذا المشروع إلى جهازك:
@@ -25,14 +25,9 @@
 
 2. تثبيت المتطلبات (في حال كان لديك Backend):
 
-إذا كنت تستخدم Python (Flask أو Django):
+إذا كنت تستخدم Python Flask :
 
 pip install -r requirements.txt
-
-إذا كنت تستخدم Node.js:
-
-npm install
-
 
 
 3. تشغيل التطبيق:
@@ -40,11 +35,6 @@ npm install
 إذا كنت تستخدم Flask:
 
 python app.py
-
-إذا كنت تستخدم Node.js:
-
-npm start
-
 
 
 4. افتح متصفحك وادخل إلى العنوان المحلي: http://localhost:5000 (أو حسب المنفذ المستخدم)
